@@ -1,0 +1,15 @@
+artifact_uri: file:D:/TrafficPredictionSystem/artifacts/mlruns/451174259921400881/62f1398bf3e045578a46205b4d3baac2/artifacts
+deleted_time: null
+end_time: null
+entry_point_name: ''
+experiment_id: '451174259921400881'
+lifecycle_stage: active
+run_id: 62f1398bf3e045578a46205b4d3baac2
+run_name: linear_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777466774191
+status: 1
+tags: []
+user_id: dell

@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  traffic-api:
+    build: .
+    container_name: traffic-api
+    command: uvicorn src.api:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+
+  traffic-dashboard:
+    build: .
+    container_name: traffic-dashboard
+    command: streamlit run src/app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app
+    depends_on:
+      - traffic-api

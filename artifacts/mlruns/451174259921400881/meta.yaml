@@ -1,0 +1,8 @@
+artifact_location: file:D:/TrafficPredictionSystem/artifacts/mlruns/451174259921400881
+creation_time: 1777466773680
+experiment_id: '451174259921400881'
+last_update_time: 1777466773680
+lifecycle_stage: active
+name: traffic_prediction_training
+trace_location: null
+workspace: default
